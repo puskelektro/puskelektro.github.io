@@ -17,7 +17,14 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-       
+        
+		<!-- Put this script tag to the <head> of your page -->
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?113"></script>
+
+		<script type="text/javascript">
+		  VK.init({apiId: 4437547, onlyWidgets: true});
+		</script>
+   
     </head>
     <body>
 
@@ -59,8 +66,26 @@
        
        			
        			<h1>Контакты</h1>
+       			<br>
+       			<address>
+       				<strong>Тел:</strong> +7 (906) 406-35-84 <br>
+       				<strong>E-mail:</strong> <a href="mailto:dmitrij-taranov@mail.ru">dmitrij-taranov@mail.ru</a>
+       			</address>
        			
        			
+       			<br>
+       			<br>
+       			<br>
+       			
+       			<div id="comments">
+       			Комментарии и вопросы по нашей работе Вы можете оставить ниже.
+       			</div>
+       			
+				<!-- Put this div tag to the place, where the Comments block will be -->
+				<div id="vk_comments"></div>
+				<script type="text/javascript">
+					VK.Widgets.Comments("vk_comments", {limit: 15, width: "520", attach: "link"});
+				</script>
        		</div>
         </div>
 
