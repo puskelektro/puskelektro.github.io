@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:600&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+body {
+    background: #f5f5f5;
+    min-width: 300px;
+    font-family: "Open Sans";
+}
+
+.bg_menu{
+    background: #ffd629;
+    border-radius: 0;
+    min-width: 258px;
+}
+
+
+#brand{
+	padding-top: 12px;
+    color: #000;
+    font-family: "Russo One","Verdana";
+}
+
+#brand:hover{
+	text-shadow: 0 0 10px #fff ; 
+}
+
+#brand img{
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); 
+	width: 30px;
+
+}
+
+#brand img:hover{
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); 
+}
+
+#top_menu a{
+    color: #000;
+    font-size: 17px;    
+	font-family: "Exo 2";
+}
+
+#top_menu > li > a:hover, #top_menu > li > a:focus{
+    background: #ffca31;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.5) inset; 
+}
+
+
+#top_pad{
+    margin-top: 50px;
+}
+
+
+h2{
+    margin-top: 60px; 
+}
+
+h2:first-child{
+    margin-top: 30px;
+}
+
+
+#main_header{
+    font-family: "Exo 2";
+    margin-bottom: 30px;
+	color: #4349c6;
+}
+
+.icon-bar{
+	background-color: #000;
+}
+
+h1{
+	text-align: center;
+}
+
+#top_menu {
+	color: #000;
+}
+
+#list_services {
+}
+
+#list_services li{
+	background: #fff;
+	padding: 15px;
+	margin: 10px;
+	border: 1px solid #d3d3d3;
+	border-radius: 8px;
+	overflow: auto;	
+}
+
+#list_services img{
+	margin: 10px;
+	box-shadow: 0 0 6px 2px #ffd629;
+	float: right;
+	width: 240px;
+}
+
+#table_services {
+	margin-top: 15px;
+	box-shadow: 0 0 9px #000;
+}
+.price {
+	font-weight: bold;
+	font-size: 16px; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 5px;
+}
+
+
+
+.thumbnail > h3, .thumbnail > p, .thumbnail > span{
+	margin: 10px;
+}
+
+
+.right{
+	float: right;
+}
+
+#list_items img{
+	margin: 10px;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#list_items img:hover{
+	margin: 10px;
+	box-shadow: 0 0 6px 2px #ffd629;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.thumbnail {
+	overflow: auto;
+}
+
+.item_info{
+	font-size: 11px;
+	padding: 6px;
+}
